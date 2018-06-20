@@ -207,13 +207,14 @@ div.gravatar-with-child > img.gravatar:nth-child(2) {
 }
 
 #main-menu li > a {
-	color: #9da2a6;
+	color: #fff;
 }
 
 
 #main-menu li a:hover, #main-menu li a.selected, #main-menu li a.selected:hover {
 	background: none;
 	color: #fff;
+	border-bottom: 1px solid #fff;
 }
 
 #main-menu .menu-button {
