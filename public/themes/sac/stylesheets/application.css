@@ -237,7 +237,7 @@ div.gravatar-with-child > img.gravatar:nth-child(2) {
 
 /* new object + button */
 #main-menu li a.new-object {
-  background-color: #3d454c;
+  background-color: #7d90d3;
 }
 
 #main-menu .menu-children {
@@ -256,9 +256,9 @@ div.gravatar-with-child > img.gravatar:nth-child(2) {
 }
 
 #main-menu .menu-children li a {
-  background: #3d454c;
-  color: #9da2a6;
-  font-weight: bold;
+  background: #7d90d3;
+  color: #fff;
+  /*font-weight: bold;*/
 }
 
 #main-menu .menu-children li a:hover {
