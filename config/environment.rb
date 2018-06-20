@@ -11,4 +11,7 @@ if Dir.glob(File.join(vendor_plugins_dir, "*")).any?
 end
 
 # Initialize the Rails application
-Rails.application.initialize!
+ENV['RAILS_ENV'] ||= 'production'
+RedmineApp::Application.routes.default_scope = { :path => '/_tickets', :shallow_path => '/_tickets' }
+RedmineApp::Application.initialize!
+Redmine::Utils::relative_url_root = '/_tickets'
