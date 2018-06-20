@@ -133,7 +133,7 @@ div.gravatar-with-child > img.gravatar:nth-child(2) {
 #header > h1 {
 	font-family: "helvetica neue",helvetica,arial,sans-serif;
 	text-transform: uppercase;
-	font-weight: 700;
+	/*font-weight: 700;*/
 	font-size: 13px;
 	letter-spacing: 1px;
 	padding: 25px 10px 25px 70px;
@@ -290,7 +290,7 @@ div.gravatar-with-child > img.gravatar:nth-child(2) {
   border-radius: 0px;
   background: #3d454c;
   color: #9da2a6;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 #main-menu button.tab-left:hover, #main-menu button.tab-right:hover {
   background-color: #3d454c;
