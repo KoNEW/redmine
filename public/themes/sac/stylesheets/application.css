@@ -1072,7 +1072,7 @@ div.details {padding: 20px !important;}
 @media all and (max-width: 899px)
 {
   body #header {
-    background-color: #3d454c;
+    background-color: #6981d3;
   }
 
   body .flyout-menu {
@@ -1101,6 +1101,11 @@ div.details {padding: 20px !important;}
     background-color: #000;
     border-color: #000;
   }
+
+	body .flyout-menu a ul li{
+		background-color: #6981d3;
+		color: #fff;
+	}
 }
 
 /**********************************************************/
