@@ -12,6 +12,6 @@ end
 
 # Initialize the Rails application
 ENV['RAILS_ENV'] ||= 'production'
-RedmineApp::Application.routes.default_scope = { :path => '/_tickets', :shallow_path => '/_tickets' }
+# RedmineApp::Application.routes.default_scope = { :path => '/_tickets', :shallow_path => '/_tickets' }
 RedmineApp::Application.initialize!
-Redmine::Utils::relative_url_root = '/_tickets'
+# Redmine::Utils::relative_url_root = '/_tickets'
