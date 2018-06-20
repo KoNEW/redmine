@@ -161,20 +161,23 @@ div.gravatar-with-child > img.gravatar:nth-child(2) {
 /* TOP-MENU */
 /**********************************************************/
 #top-menu {
-	background: #000;
+	background: #FFF;
 	padding: 7px 20px 2px 25px;
  	font-size: 0.9em;
+	text-transform: uppercase;
 }
 
 #top-menu a {
 	margin-right: 15px;
  	font-weight: normal;
- 	color: #9da2a6;
+ 	color: #6981d3;
+	text-transform: uppercase;
 }
 
 #top-menu a:hover {
-	color: #fff;
+	/*color: #fff;*/
 	text-decoration: none;
+	border-bottom: 1px solid #6981d3;
 }
 /**********************************************************/
 /* MAIN-MENU */
