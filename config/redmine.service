@@ -1,0 +1,16 @@
+[Unit]
+Description=Redmine server
+After=network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=simple
+User=centos
+Group=centos
+EnvironmentFile=/etc/sysconfig/httpd
+WorkingDirectory=/opt/redmine
+ExecStart=/usr/local/bin/ruby bin/rails server -b 0.0.0.0 -e production -p 3010
+TimeoutSec=300
+ExecStop=/bin/kill -WINCH ${MAINPID}
+
+[Install]
+WantedBy=multi-user.target
