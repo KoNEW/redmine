@@ -36,7 +36,7 @@ production:
   host: localhost
   username: redmine
   encoding: utf8
-  password: "ZUtmk8HSK70"
+  password: "pWplNRHf53M"
 
 # SQLite3 configuration example
 #production:
